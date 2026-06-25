@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes & Registro Fans - Breaking Bad Net</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="pagina-interna">
+
+    <!-- ===== MENU DE NAVEGACION ===== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="walterwhite.html">Walter White</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="jessepinkman.html">Jesse Pinkman</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Otros  Personajes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="saulgoodman.html">Saul Goodman</a></li>
+                            <li><a class="dropdown-item" href="gustavofring.html">Gustavo Fring</a></li>
+                            <li><a class="dropdown-item" href="hankschrader.html">Hank Schrader</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="/pages1/personajesbreakingbad.html">📋 Registro Fans</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="todo">
+        <div class="contenedor-principal">
+
+            <!-- ENCABEZADO -->
+            <header class="header-wiki text-center mb-4">
+                <h1 class="display-4">Personajes de Breaking Bad</h1>
+                <p>
+                    Conoce a los personajes principales de la serie y regístrate
+                    como <strong>fan oficial</strong> de Breaking Bad Net.
+                </p>
+            </header>
+
+            <!-- SECCIÓN 1: TABLA DE PERSONAJES -->
+            <section class="seccion-personajes">
+                <h2 class="text-center">🧪 Tabla de Personajes</h2>
+
+                <div class="table-responsive">
+                    <table class="tabla-personajes table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Personaje</th>
+                                <th>Alias / Apodo</th>
+                                <th>Actor</th>
+                                <th>Rol en la Serie</th>
+                                <th>Perfil</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Walter White</strong></td>
+                                <td>Heisenberg</td>
+                                <td>Bryan Cranston</td>
+                                <td>Protagonista · Fabricante de metanfetamina</td>
+                                <td><a href="walterwhite.html" class="enlace-tabla">Ver perfil</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Jesse Pinkman</strong></td>
+                                <td>Cap'n Cook</td>
+                                <td>Aaron Paul</td>
+                                <td>Protagonista · Exalumno y socio de Walter</td>
+                                <td><a href="jessepinkman.html" class="enlace-tabla">Ver perfil</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Saul Goodman</strong></td>
+                                <td>Jimmy McGill</td>
+                                <td>Bob Odenkirk</td>
+                                <td>Abogado y asesor criminal</td>
+                                <td><a href="saulgoodman.html" class="enlace-tabla">Ver perfil</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gustavo Fring</strong></td>
+                                <td>Gus</td>
+                                <td>Giancarlo Esposito</td>
+                                <td>Antagonista · Distribuidor de droga</td>
+                                <td><a href="gustavofring.html" class="enlace-tabla">Ver perfil</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Hank Schrader</strong></td>
+                                <td>—</td>
+                                <td>Dean Norris</td>
+                                <td>Agente de la DEA</td>
+                                <td><a href="hankschrader.html" class="enlace-tabla">Ver perfil</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 3: FORMULARIO DE REGISTRO -->
+            <section class="seccion-registro">
+                <h2 class="text-center">📋 Registro de Fan Oficial</h2>
+                <p class="text-center text-muted mb-4">
+                    Únete a la comunidad de Breaking Bad Net completando tu registro de fan.
+                </p>
+
+                <div class="form-container">
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Nombre Completo *</label>
+                            <input type="text" class="form-control"
+                                placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Personaje Favorito *</label>
+                            <select class="form-select" required>
+                                <option value="" disabled selected>-- Selecciona un personaje --</option>
+                                <option value="walter">Walter White (Heisenberg)</option>
+                                <option value="jesse">Jesse Pinkman</option>
+                                <option value="saul">Saul Goodman</option>
+                                <option value="gus">Gustavo Fring</option>
+                                <option value="hank">Hank Schrader</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Correo Electrónico *</label>
+                            <input type="email" class="form-control"
+                                placeholder="ejemplo@correo.com" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Fecha de Nacimiento *</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Edad *</label>
+                            <input type="number" class="form-control"
+                                placeholder="Tu edad" min="1" max="120" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Contraseña *</label>
+                            <input type="password" class="form-control"
+                                placeholder="Crea una contraseña segura" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">País de Origen</label>
+                        <select class="form-select">
+                            <option value="" disabled selected>-- Selecciona tu país --</option>
+                            <option value="hn">🇭🇳 Honduras</option>
+                            <option value="mx">🇲🇽 México</option>
+                            <option value="us">🇺🇸 Estados Unidos</option>
+                            <option value="es">🇪🇸 España</option>
+                            <option value="gt">🇬🇹 Guatemala</option>
+                            <option value="co">🇨🇴 Colombia</option>
+                            <option value="ar">🇦🇷 Argentina</option>
+                            <option value="otro">🌎 Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label">¿Por qué eres fan de Breaking Bad?</label>
+                        <textarea class="form-control" rows="4"
+                            placeholder="Cuéntanos qué es lo que más te apasiona de Breaking Bad..."></textarea>
+                    </div>
+
+                    <div class="d-flex gap-3 justify-content-center">
+                        <button type="submit" class="btn-guardar">💾 Guardar Registro</button>
+                        <button type="reset" class="btn-limpiar">🗑️ Limpiar Formulario</button>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <footer>
+                <div class="container text-center">
+                    <p class="mb-0">Sitio desarrollado por <strong>Samira Gomez</strong> - 2026 ©</p>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
