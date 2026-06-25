@@ -36,7 +36,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Otros  Personajes
+                            Otros Personajes
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="saulgoodman.html">Saul Goodman</a></li>
@@ -46,8 +46,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="/pages1/personajesbreakingbad.html">📋 Registro Fans</a>
+                        <a class="nav-link active" aria-current="page" href="/pages1/personajesbreakingbad.html">📋
+                            Registro Fans</a>
                     </li>
 
                 </ul>
@@ -55,7 +55,7 @@
         </div>
     </nav>
 
-    
+
     <div class="todo">
         <div class="contenedor-principal">
 
@@ -131,13 +131,16 @@
                     Únete a la comunidad de Breaking Bad Net completando tu registro de fan.
                 </p>
 
-                <div class="form-container">
+                <div id="guardado" class="alert alert-success text-center fw-bold">
+                     Registro enviado correctamente. Gracias por formar parte de Breaking Bad Net.
+                </div>
+
+                <form class="form-container" action="#guardado" method="get">idate>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Nombre Completo *</label>
-                            <input type="text" class="form-control"
-                                placeholder="Tu nombre completo" required>
+                            <input type="text" class="form-control" placeholder="Tu nombre completo" required>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Personaje Favorito *</label>
@@ -155,8 +158,7 @@
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Correo Electrónico *</label>
-                            <input type="email" class="form-control"
-                                placeholder="ejemplo@correo.com" required>
+                            <input type="email" class="form-control" placeholder="ejemplo@correo.com" required>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Fecha de Nacimiento *</label>
@@ -167,19 +169,18 @@
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Edad *</label>
-                            <input type="number" class="form-control"
-                                placeholder="Tu edad" min="1" max="120" required>
+                            <input type="number" class="form-control" placeholder="Tu edad" min="1" max="120" required>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Contraseña *</label>
-                            <input type="password" class="form-control"
-                                placeholder="Crea una contraseña segura" required>
+                            <input type="password" class="form-control" placeholder="Crea una contraseña segura"
+                                required>
                         </div>
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">País de Origen</label>
-                        <select class="form-select">
+                        <label class="form-label">País de Origen *</label>
+                        <select class="form-select" required>
                             <option value="" disabled selected>-- Selecciona tu país --</option>
                             <option value="hn">🇭🇳 Honduras</option>
                             <option value="mx">🇲🇽 México</option>
@@ -193,9 +194,10 @@
                     </div>
 
                     <div class="mb-4">
-                        <label class="form-label">¿Por qué eres fan de Breaking Bad?</label>
+                        <label class="form-label">¿Por qué eres fan de Breaking Bad? *</label>
                         <textarea class="form-control" rows="4"
-                            placeholder="Cuéntanos qué es lo que más te apasiona de Breaking Bad..."></textarea>
+                            placeholder="Cuéntanos qué es lo que más te apasiona de Breaking Bad..."
+                            required></textarea>
                     </div>
 
                     <div class="d-flex gap-3 justify-content-center">
@@ -203,7 +205,7 @@
                         <button type="reset" class="btn-limpiar">🗑️ Limpiar Formulario</button>
                     </div>
 
-                </div>
+                </form>
             </section>
 
         </div>

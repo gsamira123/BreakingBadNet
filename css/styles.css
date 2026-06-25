@@ -485,3 +485,30 @@ background-color: #f5faf7;
 
 background-color: #e7f4ec;
 }
+/* ===== MENSAJE DE REGISTRO GUARDADO SIN JAVASCRIPT ===== */
+
+#guardado {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid var(--verde-medio);
+    border-radius: 12px;
+}
+
+#guardado:target {
+    display: block;
+}
+
+/* ===== CAMPOS OBLIGATORIOS ===== */
+
+.form-container input:required:invalid,
+.form-container select:required:invalid,
+.form-container textarea:required:invalid {
+    border-color: #dc3545;
+}
+
+.form-container input:required:valid,
+.form-container select:required:valid,
+.form-container textarea:required:valid {
+    border-color: #198754;
+}
